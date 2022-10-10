@@ -1,0 +1,63 @@
+.movie-card{
+    background-color: var(--primary-color);
+    height: 80%;
+    width: 70%;
+    color:var(--white);
+    transition: all 0.2s ease-in;
+}
+.movie-card:hover{
+    transform: scale(1.05);
+}
+.movie-card img{
+    height: 80%;
+    width: 100%;
+}
+.movie-card small{
+    color:var(--dim-white);
+}
+.edit-modal{
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100vw;
+}
+.edit-modal form{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.edit-modal form input{
+    width: 30rem;
+    padding: 10px;
+}
+.form-btn{
+    padding: 5px 1rem;
+}
+.action-button{
+    border-radius: 10px;
+    font-size: large;
+}
+.cancel-button:hover{
+    background-color: var(--primary-color);
+    color:var(--white);
+    transition: color,background-color 0.2s ease;
+}
+.toggler-button:hover{
+    background-color: var(--red);
+    color:var(--white);
+    transition: color,background-color 0.2s ease;
+}
+input[type="text"]{
+    border-radius: 10px;
+    padding: 1rem;
+    outline: none;
+    border: 4px solid var(--dim-white);
+    background-color: var(--primary-color);
+    font-size: large;
+    color: var(--white);
+  }
+  input[type="text"]:focus{
+    border: 4px solid var(--white);
+  }
+  input[type="checkbox"]{
+   transform: scale(1.2);
+  }
