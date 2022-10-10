@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  background: url('./images/black-bg.jpg');
+  /* height: 100vh; */
+}
+.grid{
+  display: grid;
+}
+.grid-3{
+  grid-template-columns: repeat(3,1fr);
+}
+.flex{
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.space-bw{
+  justify-content: space-between;
+}
+.space-around{
+  justify-content: space-around;
+}
+.justify-center{
+  justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
+.g-1{
+  gap: 1rem;
+}
+.g-2{
+  gap: 2rem;
+}
+.p-1{
+  padding: 1rem;
+}
+.p-2{
+  padding: 2rem;
+}
+.m-1{
+  margin: 1rem;
+}
+.m-2{
+  margin: 2rem;
+}
+.left{
+  text-align: left;
+}
+.pointer{
+  cursor: pointer;
+}
+.x-lg{
+  font-size: larger;
+}
+.fixed{
+  position: fixed;
+}
+.z-2{
+  z-index: 2;
+}
+.h-full{
+  height: 100%;
+}
+.w-full{
+  width: 100%;
+}
